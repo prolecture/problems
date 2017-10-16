@@ -9,7 +9,12 @@
    :maxdepth: 1  
    :titlesonly:   
    
-   JavaSrc/index   
+   JavaSrc/src/index   
+   JavaSrc/day01/index   
+   JavaSrc/day02/index   
+   JavaSrc/day03/index   
+   JavaSrc/day04/index   
+   JavaSrc/day05/index   
 
 
 참고
