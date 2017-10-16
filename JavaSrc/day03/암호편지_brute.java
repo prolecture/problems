@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ¾ÏÈ£ÆíÁö_brute {
+public class ì•”í˜¸í¸ì§€_brute {
 
 	static String today = "today";
 	static String tomorrow = "tomorrow";

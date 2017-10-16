@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class ÃÖÀå°Å¸® {
-	static int[][] G;			// ÀÎÁ¢ Çà·Ä
-	static boolean[] visited;	// ¹æ¹® Á¤º¸
-	static int[] indeg;			// ÁøÀÔ Â÷¼ö
+public class ìµœì¥ê±°ë¦¬ {
+	static int[][] G;			// ì¸ì ‘ í–‰ë ¬
+	static boolean[] visited;	// ë°©ë¬¸ ì •ë³´
+	static int[] indeg;			// ì§„ì… ì°¨ìˆ˜ ì €ì¥
 	static int[] D;
-	static int N, E;			// ¸¶Áö¸· Á¤Á¡¹øÈ£, °£¼±¼ö
+	static int N, E;			// ë§ˆì§€ë§‰ ì •ì  ë²ˆí˜¸, ê°„ì„ ìˆ˜
 	
 	public static void solve()
 	{
@@ -14,19 +14,19 @@ public class ÃÖÀå°Å¸® {
 		Queue<Integer> Q = new LinkedList<Integer>();
 		
 		for(int i = 0; i <= N; i++)		
-			if(indeg[i] == 0) Q.add(i); // ÁøÀÔ Â÷¼ö 0ÀÎ Á¤Á¡ Å¥¿¡ ÀúÀå
+			if(indeg[i] == 0) Q.add(i); // ì§„ì…ì°¨ìˆ˜ == 0ì¸ ì •ì ë“¤ ì €ì¥
 		
 		while(!Q.isEmpty())
 		{
 			int v = Q.poll();			
 			
-			for(int i = 0; i <= N; i++)	// ÀÎÁ¢ Á¤Á¡ÀÇ ÁøÀÔ Â÷¼ö Â÷°¨
+			for(int i = 0; i <= N; i++)	// vì˜ ì¸ì ‘ ì •ì  ì°¾ê¸°
 			{
 				if(G[v][i] != 0 && indeg[i] != 0)
 				{
 					D[i] = Math.max(D[i], D[v] + G[v][i]);
 					indeg[i]--;
-					if(indeg[i] == 0) Q.add(i);	// ÁøÀÎ Â÷¼ö°¡ 0ÀÌ µÇ¸é Å¥¿¡ ÀúÀå
+					if(indeg[i] == 0) Q.add(i);	// ì§„ì…ì°¨ìˆ˜ê°€ 0ì´ ëœ ì •ì ë“¤ íì— ì €ì¥ 
 				}
 			}
 		}
@@ -38,7 +38,7 @@ public class ÃÖÀå°Å¸® {
 		for(int tc = 1; tc <= T; tc++){
 			N = sc.nextInt();
 			E = sc.nextInt();
-			G = new int[N + 1][N + 1];	// Á¤Á¡ ¹øÈ£ 0 ~ (V-1)			
+			G = new int[N + 1][N + 1];	// 0 ~ (V-1)			
 			indeg = new int[N + 1];
 			D = new int[N + 1];		
 			
@@ -47,7 +47,7 @@ public class ÃÖÀå°Å¸® {
 				u = sc.nextInt();
 				v = sc.nextInt();
 				w = sc.nextInt();
-				G[u][v] = w;	// À¯Çâ ±×·¡ÇÁ
+				G[u][v] = w;	// ìœ í–¥ ê·¸ë˜í”„
 				indeg[v]++;
 			}
 			solve();

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class nÀÚ¸®2Áø¼ö {
+public class nìë¦¬2ì§„ìˆ˜ {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		

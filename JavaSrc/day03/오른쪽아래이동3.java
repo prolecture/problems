@@ -1,13 +1,13 @@
 import java.util.Scanner;
-public class ¿À¸¥ÂÊ¾Æ·¡ÀÌµ¿3 {
+public class ì˜¤ë¥¸ìª½ì•„ë˜ì´ë™3 {
 	static int[][] MAP = new int[101][101];
 	static int[][] D = new int[101][101];
 	
 	static int matrixPath(int N, int M)
 	{
-		for(int i = 1; i <= N; i++) // 1Çà
+		for(int i = 1; i <= N; i++) // 1ï¿½ï¿½
 			D[i][1] = D[i - 1][1] + MAP[i][1];
-		for(int i = 1; i <= M; i++) // 1¿­
+		for(int i = 1; i <= M; i++) // 1ï¿½ï¿½
 			D[1][i] = D[1][i - 1] + MAP[1][i];
 		
 		for(int i = 2; i <= N; i++)	// 2 ~ N

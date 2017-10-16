@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Áý»öÄ¥ {
+public class ì§‘ìƒ‰ì¹  {
 	static int[][] memo;
 	static int N;
 	

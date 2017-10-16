@@ -1,15 +1,14 @@
-// ÁÖÀÇ>> À¯Çâ ±×·¡ÇÁ
 import java.util.*;
 
-public class ÃÖ´Ü°Å¸®_Dijkstra {
-	static ArrayList<Vertex>[] G;	// ÀÎÁ¢ Çà·Ä
-	static int[] D;					// °Å¸® ÀúÀå	
-	static int N, E;				// Á¤Á¡¼ö, °£¼±¼ö
+public class ìµœë‹¨ê±°ë¦¬_Dijkstra {
+	static ArrayList<Vertex>[] G;	// ì¸ì ‘ ë¦¬ìŠ¤íŠ¸
+	static int[] D;					// ìµœë‹¨ ê±°ë¦¬ ì €ì¥	
+	static int N, E;				// ë§ˆì§€ë§‰ì •ì , ê°„ì„ ìˆ˜
 	
-	// ¿ì¼± ¼øÀ§ Å¥¿¡ ÀúÀåµÇ´Â Á¤º¸
+	// ìš°ì„  ìˆœìœ„ íì— ì €ì¥í•˜ê¸° ìœ„í•œ ê°ì²´ 
 	private static class Vertex implements Comparable<Vertex>{
-		int v;	// Á¤Á¡ ¹øÈ£
-		int d;	// ½ÃÀÛÁ¡¿¡¼­ °Å¸®
+		int v;	// ì •ì 
+		int d;	// ê±°ë¦¬
 		Vertex(int a, int b) {
 			v = a; d = b; 
 		}
@@ -17,11 +16,11 @@ public class ÃÖ´Ü°Å¸®_Dijkstra {
 			return d - arg.d;
 		}		
 	}
-	// ´ÙÀÍ½ºÆ®¶ó + ¿ì¼±¼øÀ§ Å¥
+	
 	public static void dijkstra(int v)
 	{
 		for(int i = 0; i <= N; i++)
-			D[i] = 0xffffff;		// D[] ¹è¿­ ÃÊ±âÈ­
+			D[i] = 0xffffff;		// D[] ì´ˆê¸°í™” 
 		D[v] = 0;
 		
 		PriorityQueue<Vertex> Q = new PriorityQueue<Vertex>();		

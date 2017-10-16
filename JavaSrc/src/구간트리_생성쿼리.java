@@ -1,5 +1,5 @@
 
-public class 备埃飘府_积己孽府 {
+public class 甑皠韸鸽Μ_靸濎劚炜茧Μ {
 	static int[] arr = {3, 9, 4, 2, 7, 8, 10, 1};
 	static int N = arr.length;
 	static int[] st;
@@ -15,7 +15,7 @@ public class 备埃飘府_积己孽府 {
 		
 		st[id] = st[id*2] + st[id*2 + 1]; 
 	}
-	// [s, e]: 孽府 备埃
+	// [s, e]: 锟斤拷锟斤拷 锟斤拷锟斤拷
 	static int query(int id, int l, int r, int s, int e){
 		
 		if(s <= l && r <= e) return st[id];

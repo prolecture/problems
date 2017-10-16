@@ -1,6 +1,4 @@
-// ±¸°£ »ý¼ºÇØ º¸±â
-
-public class ±¸°£Æ®¸®_±¸°£³ª´©±â {	
+public class êµ¬ê°„íŠ¸ë¦¬_êµ¬ê°„ë‚˜ëˆ„ê¸° {	
 	static int[] arr = {3, 9, 4, 2, 7, 8, 10, 1};
 	static int N = arr.length;
 	static int[] st;

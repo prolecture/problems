@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class ÀÌÇ×°è¼ö {
+public class ì´í•­ê³„ìˆ˜ {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// ÀÔ·Â¼ö
+		int T = sc.nextInt();		// ï¿½Ô·Â¼ï¿½
 		long[][] memo = new long[71][71];
 		
 		for(int i = 0; i <= 70; i++){

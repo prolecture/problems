@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // 
-public class ±×·ì³ª´©±â {
+public class ê·¸ë£¹ë‚˜ëˆ„ê¸° {
 	static int[] p;
 	static int[] r;
 	static int size;
@@ -23,7 +23,7 @@ public class ±×·ì³ª´©±â {
 		int b = findSet(y);
 		if(a == b) return;
 		
-		size--;	// ÁýÇÕÀÇ ¼ö °¨¼Ò
+		size--;	// ê·¸ë£¹(ì§‘í•©)ìˆ˜ ê°ì†Œ
 		
 		if(r[a] > r[b])
 			p[b] = a;

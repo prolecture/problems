@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class Å¸ÀÏºÙÀÌ±â_¹İº¹ {
+public class íƒ€ì¼ë¶™ì´ê¸°_ë°˜ë³µ {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// ÀÔ·Â¼ö
+		int T = sc.nextInt();		// ï¿½Ô·Â¼ï¿½
 		long[] memo = new long[31];
 		memo[1] = 1; memo[2] = 3; 
 		memo[3] = 6;

@@ -1,26 +1,26 @@
 import java.util.*;
 
-public class ÃÖ¼Ò½ÅÀåÆ®¸®_Prim {
+public class ìµœì†Œì‹ ì¥íŠ¸ë¦¬_Prim {
 	
-	static int[][] G;			// ÀÎÁ¢ Çà·Ä
-	static boolean[] visited;	// Æ®¸®¿¡ Æ÷ÇÔµÈ Á¤Á¡µé Ç¥½Ã
-	static int[] D;				// °£¼±ÀÇ °¡ÁßÄ¡ ÀúÀå
-	static int[] P; 			// ÃÖ¼Ò ½ÅÀå Æ®¸® ÀúÀå(°£¼± Á¤º¸ ÀúÀå)	
-	static int V, E;			// ¸¶Áö¸· Á¤Á¡¹øÈ£, °£¼±¼ö	
+	static int[][] G;			// ì¸ì ‘ í–‰ë ¬
+	static boolean[] visited;	// íŠ¸ë¦¬ì— í¬í•¨ëœ ì •ì ë“¤ í‘œì‹œ
+	static int[] D;				// ê°„ì„ ì˜ ê°€ì¤‘ì¹˜ ì €ì¥
+	static int[] P; 			// ìµœì†Œ ì‹ ì¥ íŠ¸ë¦¬ ì €ì¥(ê°„ì„  ì •ë³´ ì €ì¥)	
+	static int V, E;			// ì •ì ìˆ˜, ê°„ì„ ìˆ˜
 	
-	public static int mstPrim(int s)	//  s: ½ÃÀÛÁ¡
-	{									// MST °¡ÁßÄ¡ÇÕ ¹İÈ¯ 
+	public static int mstPrim(int s)	//  s: ì‹œì‘ì 
+	{									// MST ê°€ì¤‘ì¹˜ ë°˜í™˜ 
 		for(int i = 0; i <= V; i++)
 		{
 			D[i] = 0xfffff;
 			P[i] = i;
 		}
-		D[s] = 0;	// ½ÃÀÛÁ¡ D[] ÃÊ±âÈ­
+		D[s] = 0;	// ì‹œì‘ì  D[] ì´ˆê¸°í™”
 				
 		int cnt = V, cost = 0;
 		while(cnt-- >= 0)
 		{
-			// Æ®¸® ¹ÌÆ÷ÇÔ Á¤Á¡Áß¿¡¼­ D[]°¡ ÃÖ¼ÒÀÎ Á¤Á¡ Ã£±â
+			// íŠ¸ë¦¬ì—ì„œ ê°€ì¥ ê°€ê¹Œìš´ ì •ì  ê°€ì ¸ì˜¤ê¸°
 			int v = 0, min = 0xfffffff;
 			for(int i = 0; i <= V; i++)
 			{
@@ -30,7 +30,7 @@ public class ÃÖ¼Ò½ÅÀåÆ®¸®_Prim {
 					min = D[i]; 
 				}
 			}
-			visited[v] = true;		// Á¤Á¡ v°¡ Æ®¸®¿¡ Æ÷ÇÔµÊ.			
+			visited[v] = true;		// ì •ì  vê°€ íŠ¸ë¦¬ì— í¬í•¨ë¨.			
 			cost += D[v];				
 			
 			for(int i = 0; i <= V; i++)
@@ -52,13 +52,13 @@ public class ÃÖ¼Ò½ÅÀåÆ®¸®_Prim {
 			V = sc.nextInt();
 			E = sc.nextInt();
 			
-			// ÇÊ¿äÇÑ ÀúÀå °ø°£ »ı¼º 
+			// í•„ìš”í•œ ì €ì¥ ê³µê°„ ìƒì„± 
 			G = new int[V + 1][V + 1];
 			visited = new boolean[V + 1];
 			D = new int[V + 1];
 			P = new int[V + 1];
 			
-			int u, v, w;		// °£¼±(u,v), °¡ÁßÄ¡ w
+			int u, v, w;		// ê°„ì„ (u,v), ê°€ì¤‘ì¹˜ w
 			for(int i = 0; i < E; i++)
 			{
 				u = sc.nextInt();

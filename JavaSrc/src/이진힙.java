@@ -1,5 +1,5 @@
 
-public class ÀÌÁøÈü {
+public class ì´ì§„í™ {
 	public static void main(String[] args){
 		int[] arr = new int[]{23, 45, 2, 5, 88, 12, 7, 49, 45, 16};	
 		for(int val: arr)
@@ -12,7 +12,7 @@ public class ÀÌÁøÈü {
 	static int hsize = 0;
 	static void swap(int i, int j){ int t = Heap[i]; Heap[i] = Heap[j]; Heap[j] = t;}
 	static void enQueue(int item){
-		// full Ã¼Å©: hsize == SIZE - 1;
+		// full ì²´í¬: hsize == SIZE - 1;
 		Heap[++hsize] = item;
 		
 		int p = hsize / 2; int c = hsize;
@@ -24,7 +24,7 @@ public class ÀÌÁøÈü {
 		}
 	}
 	static int deQueue(){
-		// empty Ã¼Å©: hsize == 0
+		// empty ì²´í¬: hsize == 0
 		int ret = Heap[1];
 		Heap[1] = Heap[hsize--];
 		int p = 1; int c = p * 2;

@@ -1,5 +1,5 @@
 import java.util.*;
-public class ÃÖ¼ÒÀÌµ¿°Å¸®_¹İº¹ {
+public class ìµœì†Œì´ë™ê±°ë¦¬_ë°˜ë³µ {
 	static int MAXN = 10;
 	static int N;
 	static int[][] G = new int[MAXN + 1][MAXN + 1];
@@ -27,17 +27,17 @@ public class ÃÖ¼ÒÀÌµ¿°Å¸®_¹İº¹ {
 			
 			dp[1][0] = 0;
 			
-			for (int visit = 1; visit < (1 << N); visit++) // visit: ¹æ¹®ÇÑ Á¤Á¡µéÀÇ ÁıÇÕ
+			for (int visit = 1; visit < (1 << N); visit++) // visit: ï¿½æ¹®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			{
-				for (int last = 0; last < N; last++)		// last: ¸¶Áö¸· ¹æ¹® Á¤Á¡
+				for (int last = 0; last < N; last++)		// last: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æ¹® ï¿½ï¿½ï¿½ï¿½
 				{
-					if ((visit & (1 << last)) == 0) continue; // last°¡ visit¿¡ Æ÷ÇÔµÇ¾ú´ÂÁö È®ÀÎ
+					if ((visit & (1 << last)) == 0) continue; // lastï¿½ï¿½ visitï¿½ï¿½ ï¿½ï¿½ï¿½ÔµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 					
-					int prev = visit - (1 << last); 		 // prev: visit¿¡¼­ last¸¦ Á¦¿ÜÇÑ Á¤Á¡µé 
+					int prev = visit - (1 << last); 		 // prev: visitï¿½ï¿½ï¿½ï¿½ lastï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 					
-					for (int v = 0; v < N; v++)				 // prev¿¡ Æ÷ÇÔµÈ Á¤Á¡ ¼±ÅÃÇÏ±â
+					for (int v = 0; v < N; v++)				 // prevï¿½ï¿½ ï¿½ï¿½ï¿½Ôµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
 					{
-						if ((prev & (1 << v)) == 0 || G[v][last]== 0) // v->last °£¼±ÀÌ ¾ø°Å³ª, visit¿¡ ¹ÌÆ÷ÇÔÀÌ¸é Á¦¿Ü
+						if ((prev & (1 << v)) == 0 || G[v][last]== 0) // v->last ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å³ï¿½, visitï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½
 							continue;
 						
 						dp[visit][last] = Math.min(dp[visit][last], dp[prev][v] + G[v][last]);

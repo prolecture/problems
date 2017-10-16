@@ -1,14 +1,14 @@
 
 import java.util.*;
 
-public class Çà·Ä°ö¼À {
+public class í–‰ë ¬ê³±ì…ˆ {
 		static final int MAXN = 20;	
 		static int[] ROWS = new int[MAXN + 1];
 		static int[] COLS = new int[MAXN + 1];
 		static int[][] memo = new int[MAXN + 1][MAXN + 1];
 		static int N;
 	
-		// Àç±Í + ¸Þ¸ð
+		// ìž¬ê·€ + ë©”ëª¨
 		static int multi_memo(int start, int end){			
 			
 			if (start == end) return 0;
@@ -25,7 +25,7 @@ public class Çà·Ä°ö¼À {
 			}
 			return memo[start][end] = min;
 		}
-		// ¹Ýº¹
+		// ë°˜ë³µ
 		static int multi_iter(){
 			
 			for (int start = N - 1; start >= 0; start--)
@@ -63,7 +63,7 @@ public class Çà·Ä°ö¼À {
 			    		ok = false;
 			    }
 			    if(ok){
-				    // memo[][]¿¡ ÃÊ±â°ª ¼³Á¤
+				    // memo[][] -1ë¡œ ì´ˆê¸°í™”
 					for(int i = 0; i < N; i++)
 						for(int j = 0; j < N; j++)
 							memo[i][j] = -1;

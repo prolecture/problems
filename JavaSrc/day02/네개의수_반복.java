@@ -1,4 +1,4 @@
 
-public class ³×°³ÀÇ¼ö_¹İº¹ {
+public class ë„¤ê°œì˜ìˆ˜_ë°˜ë³µ {
 
 }

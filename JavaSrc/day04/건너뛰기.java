@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class �ǳʶٱ� {
+public class 건너뛰기 {
 
 	static int[][] MAP;
 	static long[][] memo;

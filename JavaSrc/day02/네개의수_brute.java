@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ³×°³ÀÇ¼ö_brute {
+public class ë„¤ê°œì˜ìˆ˜_brute {
 	static int cnt;
 	static int[] a;
 	static void perm(int k, int sum){
@@ -15,7 +15,7 @@ public class ³×°³ÀÇ¼ö_brute {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// ÀÔ·Â¼ö		
+		int T = sc.nextInt();		// ï¿½Ô·Â¼ï¿½		
 		for(int tc = 1; tc <= T; tc++)
 		{
 			a = new int[4];

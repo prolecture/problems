@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class ÃÖ¼Òµ¿Àü°³¼ö {
+public class ìµœì†Œë™ì „ê°œìˆ˜ {
 	static int N, K;
-	static int[][] G;	// ´ë¼Ò °ü°è¸¦ À¯Çâ ±×·¡ÇÁ·Î Ç¥Çö
-	static int[] in;	// ÁøÀÔÂ÷¼ö
+	static int[][] G;	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½è¸¦ ï¿½ï¿½ï¿½ï¿½ ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
+	static int[] in;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	static int max;
 	static void DFS(int v, int h){
 		max = Math.max(max, h);

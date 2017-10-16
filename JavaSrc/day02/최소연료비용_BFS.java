@@ -1,22 +1,22 @@
 import java.util.*;
 
-public class ÃÖ¼Ò¿¬·á¼Òºñ·®_BFS {
-	static int N;								// ¸Ê Å©±â
-	static int[][] G = new int[1001][1001];		// ¸Ê Á¤º¸
-	static int[][] D = new int[1001][1001];		// °Å¸®	
+public class ìµœì†Œì—°ë£Œë¹„ìš©_BFS {
+	static int N;								// í¬ê¸°
+	static int[][] G = new int[1001][1001];		// ì§€ë„ ì €ì¥
+	static int[][] D = new int[1001][1001];		// ìµœë‹¨ ê±°ë¦¬ ì €ì¥	
 	static int[] dx = new int[]{0, 0, 1, -1};
 	static int[] dy = new int[]{1, -1, 0, 0};
 	
-	// Å¥¿¡ ÀúÀåµÇ´Â Á¤º¸
+	// íì— ì €ì¥í•  ê°ì²´
 	private static class Vertex {
-		int x, y; 		// (x, y)ÁÂÇ¥
+		int x, y; 		// (x, y) ì¢Œí‘œ
 		Vertex(int _x, int _y){
 			x = _x; y = _y; 
 		}				
 	}
 	static Queue<Vertex> Q = new LinkedList<Vertex>();
 	
-	static void edgeRelaxation(int x, int y)	// °£¼± ¿ÏÈ­
+	static void edgeRelaxation(int x, int y)	// ê°„ì„  ì™„í™”
 	{
 		for(int i = 0; i < 4; i++)
 		{
@@ -39,11 +39,11 @@ public class ÃÖ¼Ò¿¬·á¼Òºñ·®_BFS {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// ÀÔ·Â¼ö
+		int T = sc.nextInt();		
 		
 		for(int tc = 1; tc <= T; tc++)
 		{
-			N = sc.nextInt();		// ¸Ê Å©±â
+			N = sc.nextInt();		// ì§€ë„ í¬ê¸°
 			for(int i = 0; i < N; i++) {				
 				for(int j = 0; j < N; j++) {
 					G[i][j] = sc.nextInt();

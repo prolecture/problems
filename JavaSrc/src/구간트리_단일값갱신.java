@@ -1,5 +1,5 @@
 
-public class ±¸°£Æ®¸®_´ÜÀÏ°ª°»½Å {
+public class êµ¬ê°„íŠ¸ë¦¬_ë‹¨ì¼ê°’ê°±ì‹  {
 	static int[] arr = {3, 9, 4, 2, 7, 8, 10, 1};
 	static int N = arr.length;
 	static int[] st;
@@ -15,7 +15,7 @@ public class ±¸°£Æ®¸®_´ÜÀÏ°ª°»½Å {
 		
 		st[id] = st[id*2] + st[id*2 + 1]; 
 	}
-	// [s, e]: Äõ¸® ±¸°£
+	// [s, e]: ì¿¼ë¦¬ êµ¬ê°„
 	static int query(int id, int l, int r, int s, int e){
 		
 		if(s <= l && r <= e) return st[id];
@@ -24,7 +24,7 @@ public class ±¸°£Æ®¸®_´ÜÀÏ°ª°»½Å {
 		int mid = (l + r)/2;
 		return query(id * 2, l, mid, s, e) +  query(id*2 + 1, mid + 1, r, s, e);
 	}
-	// p: °»½ÅÇÒ ÀÚ·áÀÇ ÀÎµ¦½º, v: °»½Å °ª
+	// p: ê°±ì‹ í•  ìë£Œì˜ ì¸ë±ìŠ¤, v: ê°±ì‹ ê°’
 	static void update(int id, int l, int r, int p, int v){
 		
 		if(r < p || p < l) return;

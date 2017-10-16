@@ -1,21 +1,21 @@
 import java.util.*;
 
-public class ÃÖ¼Ò½ÅÀåÆ®¸®_kruskal {
-	static int[] p = null;		// Disjoint-set ºÎ¸ğ ÀúÀå
-	static int[] r = null;		// ·©Å©°ª ÀúÀå	
-	static int V,  E;			// ¸¶Áö¸· Á¤Á¡¹øÈ£, °£¼±¼ö
+public class ìµœì†Œì‹ ì¥íŠ¸ë¦¬_kruskal {
+	static int[] p = null;		// Disjoint-set ë¶€ëª¨ ì €ì¥
+	static int[] r = null;		// ë§í¬ê°’ ì €ì¥
+	static int V,  E;			// ì •ì ìˆ˜, ê°„ì„ ìˆ˜
 	
-	// °£¼± Á¤º¸¸¦ À§ÇÑ Edge Å¬·¡½º
+	// ê°„ì„  ì •ë³´ë¥¼ ì €ì¥í•˜ê¸° ìœ„í•œ Edge í´ë˜ìŠ¤
 	public static class Edge implements Comparable<Edge>{
-		int u, v, w;
+		int u, v, w;		//(u, v) ê°„ì„ , ê°€ì¤‘ì¹˜ w
 		Edge(int _u, int _v, int _w){ u = _u; v = _v; w = _w;}
 		
 		public int compareTo(Edge arg) {
 			return w - arg.w;			
 		}		
 	}
-	static LinkedList<Edge> edges = new LinkedList<Edge>();	// ¸ğµç °£¼±µé
-	static LinkedList<Edge> tree = new LinkedList<Edge>();	// MST °£¼±µé
+	static LinkedList<Edge> edges = new LinkedList<Edge>();	// ëª¨ë“  ê°„ì„ ë“¤
+	static LinkedList<Edge> tree = new LinkedList<Edge>();	// MST ê°„ì„ ë“¤
 	
 	//---------------------------------------------
 	// Disjoint-Set
@@ -51,29 +51,29 @@ public class ÃÖ¼Ò½ÅÀåÆ®¸®_kruskal {
 	}
 	//---------------------------------------------
 	
-	public static int kruskal()	// MST °¡ÁßÄ¡ ÇÕ ¹İÈ¯
+	public static int kruskal()	// MST ê°„ì„ ë“¤ ê°€ì¤‘ì¹˜ í•© ë°˜í™˜
 	{
-		int cost = 0;			// °¡ÁßÄ¡ ÇÕ ÀúÀå
+		int cost = 0;			// ê°€ì¤‘ì¹˜ í•© ì €ì¥
 		
-		Collections.sort(edges);// °£¼± Á¤·Ä
+		Collections.sort(edges);// ê°„ì„ ë“¤ ì •ë ¬
 		
-		make_set();				// Disjoint-Set ÃÊ±âÈ­
+		make_set();				// Disjoint-Set ì´ˆê¸°í™”
 		
-		int cnt = V;		// Á¤Á¡¼ö - 1 °³	
+		int cnt = V;		// ê°„ì„ ì˜ ìˆ˜
 		
 		while(cnt > 0)
 		{
-			Edge e = edges.removeFirst(); // °¡ÁßÄ¡ ¼øÀ¸·Î °£¼±À» °¡Á®¿Â´Ù.
+			Edge e = edges.removeFirst(); // ê°€ì¤‘ì¹˜ ìˆœìœ¼ë¡œ ê°„ì„ ì„ ê°€ì ¸ì˜¨ë‹¤.
 			
-			int a = find_set(e.u);		// u, v ÁıÇÕÀÇ ´ëÇ¥ÀÚ Ã£±â
+			int a = find_set(e.u);		// u, v ë¥¼ í¬í•¨í•˜ëŠ” ì§‘í•©ì˜ ëŒ€í‘œì ì°¾ê¸°
 			int b = find_set(e.v);
 			
-			if(a == b) continue;		// °°Àº ÁıÇÕÀÌ¸é Skip
+			if(a == b) continue;		// ê°™ì€ ì§‘í•©ì´ë©´ skip(ì‹¸ì´í´ íŒë‹¨)
 			
-			union(a, b);				// ´Ù¸¥ ÁıÇÕÀÌ¸é ÇÕÄ£´Ù.
+			union(a, b);				// ì§‘í•©ì„ í•©ì¹œë‹¤.
 			cost += e.w;
 			
-			tree.add(e);				// ¼±ÅÃµÈ °£¼±À» ÀúÀå
+			tree.add(e);				// ê°„ì„  ì €ì¥
 			cnt--;
 		}
 		return cost;
