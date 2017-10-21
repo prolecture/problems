@@ -3,6 +3,7 @@ public class 구간트리_구간나누기 {
 	static int N = arr.length;
 	static int[] st;
 	
+	// id: 노드 번호, l: 구간 시작, r:구간 끝
 	static void build(int id, int l, int r){
 		System.out.printf("%2d> (%d, %d)\n", id, l, r);
 		if(l == r) return;

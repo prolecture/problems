@@ -7,8 +7,7 @@ public class 구간트리_단일값갱신 {
 	static void build(int id, int l, int r){		
 		if(l == r) {
 			st[id] = arr[l]; return;		
-		}
-		
+		}		
 		int mid = (l + r)/2;
 		build(id * 2, l, mid);
 		build(id*2 + 1, mid + 1, r);
@@ -36,12 +35,16 @@ public class 구간트리_단일값갱신 {
 		update(id*2 + 1, mid + 1, r, p, v);
 		st[id] = st[id*2] + st[id*2 + 1];
 	}
-	public static void main(String[] args){
+	static int getSize(){
 		int size = 1;
 		while(size < N)
-			size = size * 2;
-		st = new int[size * 2 + 1];
-		
+			size = size <<= 1;
+		size <<= 1;
+		return size + 1;
+	}
+	public static void main(String[] args){
+		int size = getSize();		
+		st = new int[size];
 		build(1, 0, N - 1);
 		update(1, 0, N - 1, 4, 3); 	// arr[4] <= 3
 		System.out.println(query(1, 0, N - 1, 0, 5));
