@@ -5,12 +5,13 @@ Day 02
 #. 네개의 수
     - brute-force_
     - 재귀-메모_
-#. 최단 거리
-    - Dijkstra_
-    
-#. 최소 연료 비용
+#. 최단 거리    
+    - Dijkstra_ 예제
+#. 최소 연료 비용    
     - BFS_
-    
+
+#. `최단 경로 참고 <http://algocoding.net/graph/shortest_path/index.html>`_
+
 #. LIS(최장 증가 부분수열)
     - LIS-반복_
 
