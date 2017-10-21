@@ -2,8 +2,8 @@ import java.util.*;
 
 public class 최소동전개수 {
 	static int N, K;
-	static int[][] G;	// ��� ���踦 ���� �׷����� ǥ��
-	static int[] in;	// ��������
+	static int[][] G;	// 인접 행렬
+	static int[] in;	// 진입 차수
 	static int max;
 	static void DFS(int v, int h){
 		max = Math.max(max, h);
