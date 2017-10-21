@@ -14,7 +14,7 @@ Day 02
 #. LIS(최장 증가 부분수열)
     - LIS-반복_
 
-.. _brute: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_brute.java
+.. _brute-force: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_brute.java
 .. _재귀-메모: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_재귀메모.java
 .. _반복: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_반복.java
 .. _Dijkstra: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최단거리_Dijkstra.java
