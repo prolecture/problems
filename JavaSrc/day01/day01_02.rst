@@ -1,0 +1,40 @@
+=====================
+최소 동전 개수
+=====================
+
+.. figure:: img/mincoin1.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin2.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin3.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin4.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin5.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin6.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin7.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin8.png
+   :scale: 60%
+   :align: center
+
+.. figure:: img/mincoin9.png
+   :scale: 60%
+   :align: center
+  
