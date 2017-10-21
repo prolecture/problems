@@ -1,0 +1,30 @@
+=====================
+그룹 나누기
+=====================
+
+.. figure:: img/group1.png
+   :scale: 70%
+   :align: center
+  
+.. figure:: img/group2.png
+   :scale: 70%
+   :align: center   
+  
+.. figure:: img/group3.png
+   :scale: 70%
+   :align: center
+   
+.. figure:: img/group4.png
+   :scale: 70%
+   :align: center
+   
+.. figure:: img/group5.png
+   :scale: 70%
+   :align: center         
+   
+.. figure:: img/group6.png
+   :scale: 70%
+   :align: center        
+   
+   
+   
