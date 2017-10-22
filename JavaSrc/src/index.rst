@@ -91,7 +91,7 @@ Java 라이브러리
 
 
 .. figure:: img/segment2.png
-   :scale: 60%
+   :scale: 70%
    :align: center
 
    < 1차 배열로 구간 트리 표현 > 
