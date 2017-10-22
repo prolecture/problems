@@ -21,3 +21,6 @@ Day 02
 .. _Dijkstra: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최단거리_Dijkstra.java
 .. _BFS: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소연료비용_BFS.java
 .. _LIS-반복: https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_DP.java
+
+네개의 수
+=====================
