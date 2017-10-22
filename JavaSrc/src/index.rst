@@ -1,9 +1,13 @@
 ==================================
-자료 구조
+Java 라이브러리
 ==================================
 
-라이브러리
-=======================================
+.. contents:: 
+   :depth: 1
+   :local:
+   
+라이브러리 예제
+==================================
 
 정렬
 ---------------
@@ -39,6 +43,7 @@
 #. PrioirtyQueue 클래스 사용하기 
     - `정수 자료형 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/PQDemo1.java>`_
     - `객체 자료형 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/PQDemo2.java>`_
+
 
 구간 트리
 =================

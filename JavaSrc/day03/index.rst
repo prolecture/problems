@@ -9,32 +9,26 @@ Day 03
 타일 붙이기
 =========================
 
-#. 타일 붙이기
-    - 타일-반복_
+- `타일 붙이기(반복) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_반복.java>`_
+    
     
 이항 계수
 =========================
    
-#. 이항계수_
+- `이항 계수 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/이항계수.java>`_
 
 오른쪽 아래 이동
 =========================
     
-#. 오른쪽-아래-이동3_
+- `오른쪽-아래-이동3 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
 
 암호 편지
 =========================
    
-#. 암호편지_
+- `암호 편지 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/암호편지.java>`_
 
 최장 거리
 =========================
 
-#. 최장거리_
-
-.. _타일-반복: https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_반복.java
-.. _이항계수: https://github.com/prolecture/problems/blob/master/JavaSrc/day03/이항계수.java
-.. _오른쪽-아래-이동3: https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java
-.. _암호편지: https://github.com/prolecture/problems/blob/master/JavaSrc/day03/암호편지.java
-.. _최장거리: https://github.com/prolecture/problems/blob/master/JavaSrc/day03/최장거리.java
+- `최장 거리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/최장거리.java>`_
 
