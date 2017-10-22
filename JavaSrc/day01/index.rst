@@ -84,8 +84,6 @@ Disjoint-Set 사용
 - `Prim 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Prim.java>`_
 - `Kruskal 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Kruskal.java>`_
         
-.. tip::
-    
-    - `알고리즘에 대한 설명 보기 <http://algocoding.net/graph/mst/spanning_tree.html>`_ 
+
     
 
