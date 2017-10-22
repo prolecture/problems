@@ -14,7 +14,7 @@ Day 01 Solutions
 
 #. 입력 자료를 그래프로 저장한다.
 
-.. code-block:: 
+.. code-block:: console
 
     7 4     // 정점수, 간선수
     2 3 4 5 4 6 7 4
