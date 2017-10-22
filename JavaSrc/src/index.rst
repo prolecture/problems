@@ -97,7 +97,7 @@ Java 라이브러리
    < 1차 배열로 구간 트리 표현 > 
 
    
-.. literalinclude:: 구간트리_구간나누기.java
+.. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos:
     :lines: 6-14
@@ -107,7 +107,7 @@ Java 라이브러리
 
 다음은 N 개의 자료들에 대한 구간 트리를 생성하는 코드이다.
    
-.. literalinclude:: 구간트리_구간나누기.java
+.. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos: 
     :lines: 7-16
@@ -123,7 +123,7 @@ Java 라이브러리
 다음은 노드 수가 N일 때 구간 트리를 저장하는 배열의 크기를 계산하는 코드이다. 
 그렇지 않다면, **vector** 클래스를 사용해서 구현할 수 있다.
 
-.. literalinclude:: 구간트리_구간나누기.java
+.. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos: 
     :lines: 38-44
@@ -177,7 +177,7 @@ Java 라이브러리
 
 다음은 구간 **[a, b]** 에 포함된 자료들의 합을 구하는 코드이다.
 
-.. literalinclude:: 구간트리_구간나누기.java
+.. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos: 
     :lines: 17-25
@@ -194,7 +194,7 @@ Java 라이브러리
    
 다음은 하나의 자료 값을 갱신하는 코드이다.
 
-.. literalinclude:: 구간트리_구간나누기.java
+.. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos: 
     :lines: 26-37
