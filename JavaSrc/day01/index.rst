@@ -1,5 +1,5 @@
 ==================================
-Day 01 Solutions
+Day 01
 ==================================
 
 .. contents:: 
@@ -22,8 +22,8 @@ Day 01 Solutions
 위의 입력 자료에 해당하는 그래프는 다음과 같다.
         
 .. figure:: img/cc1.png
-   :scale: 70%
-   :align: center
+    :scale: 70%
+    :align: center
 
 #. 방문하지 않은 정점이  선택해서 그래프 탐색을 수행한다.  
     - 모든 정점을 방문할 때 까지 반복한다.
@@ -69,26 +69,23 @@ Disjoint-Set 사용
 
 ----------
 
-.. tip::
-
-    `disjoint-set 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/그룹나누기.java>`_
+- `disjoint-set 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/그룹나누기.java>`_
 
 최소 동전 개수
 ========================    
 
-.. tip::
-
-    `인접 행렬 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수.java>`_
-    `인접리스트  <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수_인접리스트.java>`_
+- `인접 행렬 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수.java>`_
+- `인접리스트  <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수_인접리스트.java>`_
 
 
 최소 신장 트리
 ========================
-    
-.. tip::
 
-    - `Prim 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Prim.java>`_
-    - `Kruskal 예제<https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Kruskal.java>`_
+- `Prim 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Prim.java>`_
+- `Kruskal 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Kruskal.java>`_
+        
+.. tip::
+    
     - `알고리즘에 대한 설명 보기 <http://algocoding.net/graph/mst/spanning_tree.html>`_ 
     
 
