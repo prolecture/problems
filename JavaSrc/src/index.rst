@@ -37,7 +37,7 @@ Java 라이브러리
 우선 순위 큐
 ======================
 
-#. `이진 힙(Binary Heap) 참고 내용<http://algocoding.net/tree/heap.html>`_
+#. `이진 힙(Binary Heap) 참고 내용 <http://algocoding.net/tree/heap.html>`_
     - `Java 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/이진힙.java>`_
 
 #. PrioirtyQueue 클래스 사용하기 
