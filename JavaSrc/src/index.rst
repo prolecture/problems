@@ -90,7 +90,7 @@ Java 라이브러리
 1차원 배열로 저장된 트리에서 현재 방문하는 노드 번호가 :math:`i` 일때 :math:`2 \times i` 와 :math:`2 \times i + 1` 가 자식들이 된다.
 
 .. figure:: img/segment2.png
-    :scale: 80%
+    :scale: 60%
     :align: center
 
    < 1차 배열로 구간 트리 표현 > 
