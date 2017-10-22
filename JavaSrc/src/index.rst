@@ -89,11 +89,13 @@ Java 라이브러리
 노드 번호는 구간 트리를 저장하는 배열의 인덱스로 사용한다. 
 1차원 배열로 저장된 트리에서 현재 방문하는 노드 번호가 :math:`i` 일때 :math:`2 \times i` 와 :math:`2 \times i + 1` 가 자식들이 된다.
 
+
 .. figure:: img/segment2.png
-    :scale: 60%
-    :align: center
+   :scale: 60%
+   :align: center
 
    < 1차 배열로 구간 트리 표현 > 
+
    
 .. literalinclude:: code/구간트리_구간나누기.java
     :language: java
