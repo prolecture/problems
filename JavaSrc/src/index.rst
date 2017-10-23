@@ -202,8 +202,6 @@ Java 라이브러리
 구간 트리 실습 코드 
 ----------------------------    
 
-#. `구간 나누기 1단계 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/구간트리_구간나누기.java>`_ 
-#. `생성 및 쿼리 2단계 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/구간트리_생성쿼리.java>`_ 
-#. `단일 값 갱신 3단계 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/구간트리_단일값갱신.java>`_
+- `구간 트리 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/구간트리_단일값갱신.java>`_
 
 
