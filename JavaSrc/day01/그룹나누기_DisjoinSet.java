@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // 
-public class 그룹나누기 {
+public class 그룹나누기_DisjoinSet {
 	static int[] p;
 	static int[] r;
 	static int size;

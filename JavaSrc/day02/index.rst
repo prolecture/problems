@@ -33,3 +33,9 @@ Day 02
 
 - `LIS 반복 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_DP.java>`_
 
+최소 신장 트리
+=========================
+
+- `Prim 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Prim.java>`_
+- `Kruskal 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Kruskal.java>`_
+        

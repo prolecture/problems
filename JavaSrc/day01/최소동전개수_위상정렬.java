@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class 최소동전개수_인접리스트 {
+public class 최소동전개수_위상정렬 {
 	static int N, K;
-	static ArrayList<Integer>[] G;	// 인접 리스트
-	static int[] in;		// 진입 차수
-	static int[] coin;		// 동전 수
+	static int[][] G;	// 인접 행렬
+	static int[] in;	// 진입 차수
+	static int[] coin;	// 동전 수
 	static int max;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,16 +14,14 @@ public class 최소동전개수_인접리스트 {
 			N = sc.nextInt();
 			K = sc.nextInt();
 			
-			G = new ArrayList[N + 1];
-			for(int i = 1; i <= N; i++)
-				G[i] = new ArrayList<Integer>();
+			G = new int[N + 1][N + 1];
 			in = new int[N + 1];
 			coin = new int[N + 1];
 			
 			for(int i = 0; i < K; i++){
 				int u = sc.nextInt();
 				int v = sc.nextInt();
-				G[u].add(v);
+				G[u][v] = 1;
 				in[v]++;
 			}
 			Queue<Integer> Q = new LinkedList<Integer>();
@@ -33,8 +31,8 @@ public class 최소동전개수_인접리스트 {
 			}
 			while(!Q.isEmpty()) {
 				int v = Q.poll();
-				for(int i: G[v]) {
-					if(in[i] != 0) {
+				for(int i = 1; i <= N; i++) {
+					if(G[v][i] == 1 && in[i] != 0) {
 						in[i]--;
 						if(in[i] == 0) Q.add(i);
 						
