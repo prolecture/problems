@@ -63,10 +63,9 @@ Disjoint-Set 사용
 .. figure:: img/group6.png
    :scale: 50%
            
-
-----------
-
 - `disjoint-set 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/그룹나누기_DisjointSet.java>`_
+
+---------
 
 최소 동전 개수
 ========================    
@@ -75,6 +74,7 @@ Disjoint-Set 사용
 - `위상 정렬 + 인접 행렬 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수_위상정렬.java>`_
 - `위상 정렬 + 인접리스트  <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소동전개수_인접리스트.java>`_
 
+---------
 
 구간합 구하기
 ========================
