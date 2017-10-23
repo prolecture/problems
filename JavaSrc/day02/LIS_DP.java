@@ -4,7 +4,7 @@ public class LIS_DP {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// 테스트 케이스 수	
+		int T = sc.nextInt();			
 		for(int tc = 1; tc <= T; tc++)
 		{
 			int N = sc.nextInt();

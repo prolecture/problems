@@ -10,8 +10,8 @@ public class 최소연료비용_BFS {
 	// 큐에 저장할 객체
 	private static class Vertex {
 		int x, y; 		// (x, y) 좌표
-		Vertex(int _x, int _y){
-			x = _x; y = _y; 
+		Vertex(int a, int b){
+			x = a; y = b; 
 		}				
 	}
 	static Queue<Vertex> Q = new LinkedList<Vertex>();

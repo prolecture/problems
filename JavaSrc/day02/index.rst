@@ -31,7 +31,9 @@ Day 02
 최장 증가 부분 수열
 =========================
 
-- `LIS 반복 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_DP.java>`_
+- `DP 반복 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_DP.java>`_
+- `이진 탐색 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_Binary.java>`_
+- `구간 트리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/LIS_구간트리.java>`_
 
 최소 신장 트리
 =========================

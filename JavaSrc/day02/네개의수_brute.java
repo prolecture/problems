@@ -3,6 +3,7 @@ import java.util.*;
 public class 네개의수_brute {
 	static int cnt;
 	static int[] a;
+	// 중복 순열 생성
 	static void perm(int k, int sum){
 		if(sum > a[3]) return;
 		if(sum == a[3]) {
@@ -15,7 +16,7 @@ public class 네개의수_brute {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();		// �Է¼�		
+		int T = sc.nextInt();		
 		for(int tc = 1; tc <= T; tc++)
 		{
 			a = new int[4];
