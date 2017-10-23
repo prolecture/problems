@@ -23,12 +23,14 @@ Day 01
         
 .. figure:: img/cc1.png
     :scale: 60%
+    :align: center
 
 2. 방문하지 않은 정점을 선택해서 그래프 탐색을 수행한다.  
     - 모든 정점을 방문할 때 까지 반복한다.
     
 .. figure:: img/cc2.png
-   :scale: 60%
+    :scale: 60%
+    :align: center
    
 
 3개의 연결 컴포넌트(connected component)가 존재한다.
@@ -42,26 +44,31 @@ Disjoint-Set 사용
 
 .. figure:: img/group1.png
    :scale: 50%
+   :align: center
 
 2. union(2, 3) 
   
 .. figure:: img/group2.png
    :scale: 50%   
+   :align: center
  
 3. union(4, 5)
 
 .. figure:: img/group3.png
    :scale: 50%
+   :align: center
 
 4. union(4, 6)
    
 .. figure:: img/group4.png
    :scale: 50%   
+   :align: center
    
 5. union(7, 4)       
    
 .. figure:: img/group6.png
    :scale: 50%
+   :align: center
            
 - `disjoint-set 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/그룹나누기_DisjointSet.java>`_
 
