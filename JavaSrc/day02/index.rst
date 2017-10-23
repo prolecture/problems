@@ -11,17 +11,28 @@ Day 02
 =========================
 
 .. figure:: img/fourNumber1.png
-   :scale: 60%
+    :scale: 60%
 
-.. figure:: img/fourNumber2.png
-   :scale: 60%
-
-.. figure:: img/fourNumber33.png
-   :scale: 60%
-
+    < 모든 경우의 수 >
 
 - `brute-force 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_brute.java>`_
+
+.. figure:: img/fourNumber2.png
+    :scale: 60%
+   
+    < 문제들 간의 관계 >
+
+점화식은 :math:`f(n) = f(n-1) + f(n-2) + f(n-3)` 이 된다.  주의할 것은 기저 사례는 :math:`f(0) = 1` 이다. 
+
+메모이제이션을 통해 중복된 계산 작업을 줄일 수 있다.
+
 - `재귀-메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_재귀메모.java>`_
+
+.. figure:: img/fourNumber3.png
+    :scale: 60%
+
+    < 테이블 채우기 >    
+
 - `반복 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/네개의수_반복.java>`_
 
 최단 거리
