@@ -74,7 +74,7 @@ public class KnapsackDemo {
 	}
 		
 	public static void main(String[] args) {
-		System.out.println("�ִ� ��ġ = " + knapsack(N, W));
+		System.out.println("최대가치 = " + knapsack(N, W));
 		init_memo();
 		knapsack_memo(N, W);
 		print_memo();
