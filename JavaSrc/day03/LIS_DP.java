@@ -5,7 +5,7 @@ public class LIS_DP {
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();			
-		for(int tc = 1; tc <= T; tc++)
+		for(int tc = 1; tc <= T; tc++) 
 		{
 			int N = sc.nextInt();
 			int[] arr = new int[N];

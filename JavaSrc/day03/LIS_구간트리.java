@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LIS_구간트리 {
+public class LIS_구간트리 { 
 	static int MAXN = 1000;
 	static int N, M;
 	static int[] arr = new int[MAXN + 1];	
