@@ -14,6 +14,36 @@ Day 03
 타일 붙이기
 =========================
 
+.. figure:: img/tile1.png
+    :scale: 60%
+    :align: center
+
+    < 3개의 타일 >
+
+.. figure:: img/tile2.png
+    :scale: 60%
+    :align: center
+    
+    < 길이 1 = 1가지, 길이 2 = 3가지 >
+
+.. figure:: img/tile3.png
+    :scale: 60%
+    :align: center
+    
+    < 길이 3 = 길이1 + 길이2 >
+
+.. figure:: img/tile4.png
+    :scale: 60%
+    :align: center
+
+    < 길이 3에 대한 모든 방법 >
+    
+.. figure:: img/tile5.png
+    :scale: 60%
+    :align: center
+    
+    < 길이 n >
+
 - `타일 붙이기(재귀) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_재귀.java>`_
 - `타일 붙이기(반복) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_반복.java>`_
 
