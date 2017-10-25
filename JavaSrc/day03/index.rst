@@ -103,9 +103,42 @@ Day 03
 5로 끝나는 증가 수열들은 1, 3, 4 로 끝나는 증가 수열들에 5를 추가 하면 된다. 6은 5보다 큰 값이기 때문에 6으로 끝나는 증가 수열 뒤에 5를 붙일 수 없다.   
 
 
+구간트리 - RMQ(Range Maximum Query)
+
+.. figure:: img/LIS_seg1.png
+    :scale: 60%
+    :align: center
+
+.. figure:: img/LIS_seg2.png
+    :scale: 60%
+    :align: center
+
+.. figure:: img/LIS_seg3.png
+    :scale: 60%
+    :align: center
+
+.. figure:: img/LIS_seg4.png
+    :scale: 60%
+    :align: center
+
+.. figure:: img/LIS_seg5.png
+    :scale: 60%
+    :align: center
+
+.. figure:: img/LIS_seg6.png
+    :scale: 60%
+    :align: center
+
+
 - `DP 반복 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/LIS_DP.java>`_
 - `이진 탐색 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/LIS_Binary.java>`_
 - `구간 트리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/LIS_구간트리.java>`_
+
+최장 거리
+=========================
+
+- `최장 거리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/최장거리.java>`_
+
 
 오른쪽 아래 이동
 =========================
@@ -113,8 +146,4 @@ Day 03
 - `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
 
 
-최장 거리
-=========================
-
-- `최장 거리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/최장거리.java>`_
 
