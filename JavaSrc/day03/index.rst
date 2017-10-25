@@ -142,6 +142,11 @@ Day 03
 
 오른쪽 아래 이동
 =========================
+
+.. figure:: img/right_down1.png
+    :scale: 60%
+    :align: center
+
 - `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3_재귀.java>`_    
 - `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
 
