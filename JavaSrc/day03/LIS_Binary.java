@@ -16,6 +16,16 @@ public class LIS_Binary {
 		else return binarySearch(lo, mid - 1, key);
 		
 	}
+	static int lower_bound(int lo, int hi, int key) {
+		hi = hi + 1;
+		while(lo < hi) {
+			int mid = (lo + hi) / 2;
+			
+			if(C[mid] < key) lo = mid + 1; 
+			else hi = mid;
+		}
+		return lo;
+	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);		
 		int T = sc.nextInt();			

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class 그룹나누기_DFS {
-	static int[][] G;
-	static int[] visited;
-	static int cnt; // 연결 컴포넌트의 수
+	static int[][] G;	    // 인접 행렬, 인접리스트 ArrayList
+	static int[] visited;	// 방문 정보
+	static int cnt; 		// 연결 컴포넌트의 수
 	static int N, M;
 	
 	static void DFS(int v) {

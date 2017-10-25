@@ -7,8 +7,7 @@ public class 최단거리_Dijkstra {
 	
 	// 우선 순위 큐에 저장하기 위한 객체 
 	private static class Vertex implements Comparable<Vertex>{
-		int v;	// 정점
-		int d;	// 거리
+		int v, d;	// 정점, 거리		
 		Vertex(int a, int b) {
 			v = a; d = b; 
 		}
@@ -21,7 +20,7 @@ public class 최단거리_Dijkstra {
 	{
 		for(int i = 0; i <= N; i++)
 			D[i] = 0xffffff;		// D[] 초기화 
-		D[v] = 0;
+		D[v] = 0;					// 시작점 거리 초기화
 		
 		PriorityQueue<Vertex> Q = new PriorityQueue<Vertex>();		
 		Q.add(new Vertex(v, D[v]));
@@ -62,7 +61,6 @@ public class 최단거리_Dijkstra {
 				w = sc.nextInt();
 				
 				G[u].add(new Vertex(v, w));
-				//G[v].add(new Vertex(u, w));
 			}		
 			dijkstra(0);
 			System.out.printf("#%d %d\n", tc, D[N]);

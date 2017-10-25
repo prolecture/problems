@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-// 
 public class 그룹나누기_DisjoinSet {
 	static int[] p;
 	static int[] r;
@@ -10,7 +8,7 @@ public class 그룹나누기_DisjoinSet {
 	static void makeSet(){
 		size = N;
 		p = new int[N + 1];
-		r = new int[N + 1];
+		r = new int[N + 1];	//초기 0으로 초기화
 		for(int i = 1; i <= N; i++)
 			p[i] = i;
 	}

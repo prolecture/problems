@@ -1,14 +1,11 @@
 import java.util.*;
 
-public class 최소신장트리_kruskal {
-	static int[] p = null;		// Disjoint-set 부모 저장
-	static int[] r = null;		// 링크값 저장
+public class 최소신장트리_kruskal {	
 	static int V,  E;			// 정점수, 간선수
-	
 	// 간선 정보를 저장하기 위한 Edge 클래스
 	public static class Edge implements Comparable<Edge>{
 		int u, v, w;		//(u, v) 간선, 가중치 w
-		Edge(int _u, int _v, int _w){ u = _u; v = _v; w = _w;}
+		Edge(int a, int b, int c){ u = a; v = b; w = c;}
 		
 		public int compareTo(Edge arg) {
 			return w - arg.w;			
@@ -16,11 +13,11 @@ public class 최소신장트리_kruskal {
 	}
 	static LinkedList<Edge> edges = new LinkedList<Edge>();	// 모든 간선들
 	static LinkedList<Edge> tree = new LinkedList<Edge>();	// MST 간선들
-	
 	//---------------------------------------------
 	// Disjoint-Set
-	public static void make_set()
-	{
+	static int[] p = null;		// Disjoint-set 부모 저장
+	static int[] r = null;		// 링크값 저장
+	public static void make_set() {
 		p = new int[V + 1];		
 		r = new int[V + 1];
 		
@@ -30,14 +27,12 @@ public class 최소신장트리_kruskal {
 			r[i] = 0;
 		}
 	}
-	public static int find_set(int x)
-	{
+	public static int find_set(int x) {
 		if( x != p[x]) p[x] = find_set(p[x]);
 		
 		return p[x]; 
 	}
-	public static void union(int a, int b)
-	{
+	public static void union(int a, int b) {
 		//int a = find_set(a); 
 		//int b = find_set(b);
 		//if(a == b) return;
@@ -50,7 +45,6 @@ public class 최소신장트리_kruskal {
 		}
 	}
 	//---------------------------------------------
-	
 	public static int kruskal()	// MST 간선들 가중치 합 반환
 	{
 		int cost = 0;			// 가중치 합 저장
@@ -59,7 +53,7 @@ public class 최소신장트리_kruskal {
 		
 		make_set();				// Disjoint-Set 초기화
 		
-		int cnt = V;		// 간선의 수
+		int cnt = V;			// 간선의 수(정점 수 = V + 1)
 		
 		while(cnt > 0)
 		{
@@ -78,6 +72,7 @@ public class 최소신장트리_kruskal {
 		}
 		return cost;
 	}
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -87,17 +82,14 @@ public class 최소신장트리_kruskal {
 			E = sc.nextInt();
 			
 			int u, v, w;
-			for(int i = 0; i < E; i++)
-			{
+			for(int i = 0; i < E; i++) {
 				u = sc.nextInt();
 				v = sc.nextInt();
 				w = sc.nextInt();				
 				edges.add(new Edge(u, v, w));
 			}									
-			System.out.printf("#%d %d\n", tc, kruskal());
+			System.out.printf("#%d %d\n", tc, kruskal());			
 			
-			//for(Edge e: tree)
-				//System.out.println(e);
 			edges.clear();
 			tree.clear();
 		}

@@ -1,20 +1,23 @@
 import java.util.*;
 
-public class 최소연료비용_BFS {
+public class 최소연료비용_Dijkstra {
 	static int N;								// 크기
 	static int[][] G = new int[1001][1001];		// 지도 저장
 	static int[][] D = new int[1001][1001];		// 최단 거리 저장	
 	static int[] dx = new int[]{0, 0, 1, -1};
 	static int[] dy = new int[]{1, -1, 0, 0};
 	
-	// 큐에 저장할 객체
-	private static class Vertex {
-		int x, y; 		// (x, y) 좌표
-		Vertex(int a, int b){
-			x = a; y = b; 
+	// 우선 순위 큐에 저장할 객체
+	private static class Vertex implements Comparable<Vertex> {
+		int x, y, d; 		// (x, y):좌표, d:거리
+		Vertex(int a, int b, int c){
+			x = a; y = b; d = c; 
+		}		
+		public int compareTo(Vertex o) {
+			return d - o.d;
 		}				
 	}
-	static Queue<Vertex> Q = new LinkedList<Vertex>();
+	static PriorityQueue<Vertex> Q = new PriorityQueue<Vertex>();
 	
 	static void edgeRelaxation(int x, int y)	// 간선 완화
 	{
@@ -27,9 +30,10 @@ public class 최소연료비용_BFS {
 			int w = G[tx][ty] - G[x][y];
 			w = w < 0 ? 1: w + 1;
 			
-			if(D[tx][ty] > D[x][y] + w)	{
+			if(D[tx][ty] > D[x][y] + w)
+			{
 				D[tx][ty] = D[x][y] + w;
-				Q.add(new Vertex(tx, ty));
+				Q.add(new Vertex(tx, ty, D[tx][ty]));
 			}
 		}
 	}
@@ -50,7 +54,7 @@ public class 최소연료비용_BFS {
 				}
 			}
 			D[0][0] = 0;			
-			Q.add(new Vertex(0, 0));			
+			Q.add(new Vertex(0, 0, 0));			
 			
 			while(!Q.isEmpty()){
 				

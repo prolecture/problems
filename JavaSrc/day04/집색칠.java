@@ -12,7 +12,6 @@ public class 집색칠 {
 			int N = sc.nextInt();
 			memo = new int[N + 1][3];
 			
-			
 			for(int i = 1; i <= N; i++)
 			{
 				int a = sc.nextInt();

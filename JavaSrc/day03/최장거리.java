@@ -7,8 +7,8 @@ public class 최장거리 {
 	static int[] D;
 	static int N, E;			// 마지막 정점 번호, 간선수
 	
-	public static void solve()
-	{
+	public static void solve() {
+		
 		D[0] = 0;
 		
 		Queue<Integer> Q = new LinkedList<Integer>();

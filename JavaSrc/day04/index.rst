@@ -6,6 +6,18 @@ Day 04
    :depth: 1
    :local:
 
+이항 계수
+=========================
+
+- `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/이항계수_재귀.java>`_   
+- `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/이항계수.java>`_
+
+암호 편지
+=========================
+   
+- `Btrute-Force <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/암호편지_brute.java>`_
+- `LCS <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/암호편지_LCS.java>`_
+
 건너 뛰기
 =========================
 
@@ -24,10 +36,11 @@ n자리 2진수
 영역 합
 =========================
 
-- `영역 합 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/영역합.java>`_
+- `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/영역합.java>`_
 
 오른쪽 아래 이동
 =========================
 
-- `오른쪽 아래 이동 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/오른쪽아래이동.java>`_
+- `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/오른쪽아래이동_재귀.java>`_
+- `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/오른쪽아래이동.java>`_
 

@@ -8,7 +8,6 @@ public class 영역합 {
 		for(int tc = 1; tc <= T; tc++){
 			int N = sc.nextInt();
 			
-			
 			int[][] arr = new int[N + 1][N + 1];
 			int[][] sum = new int[N + 1][N + 1];
 			

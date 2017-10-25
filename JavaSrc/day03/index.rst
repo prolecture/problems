@@ -6,6 +6,17 @@ Day 03
    :depth: 1
    :local:
 
+팩토리얼
+=========================
+
+- `팩토리얼 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/팩노리얼.java>`_
+
+타일 붙이기
+=========================
+
+- `타일 붙이기(재귀) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_재귀.java>`_
+- `타일 붙이기(반복) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_반복.java>`_
+
 
 네 개의 수
 =========================
@@ -16,7 +27,9 @@ Day 03
 
     < 모든 경우의 수 >
 
-- `brute-force 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/네개의수_brute.java>`_
+- `brute-force(중복순열) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/네개의수_brute.java>`_
+- `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/네개의수_재귀메모.java>`_
+- `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/네개의수_반복.java>`_
 
 .. figure:: img/fourNumber2.png
     :scale: 60%
@@ -64,27 +77,11 @@ Day 03
 - `이진 탐색 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/LIS_Binary.java>`_
 - `구간 트리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/LIS_구간트리.java>`_
 
-
-타일 붙이기
-=========================
-
-- `타일 붙이기(반복) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_반복.java>`_
-    
-    
-이항 계수
-=========================
-   
-- `이항 계수 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/이항계수.java>`_
-
 오른쪽 아래 이동
 =========================
-    
-- `오른쪽-아래-이동3 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
+- `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3_재귀.java>`_    
+- `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
 
-암호 편지
-=========================
-   
-- `암호 편지 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/암호편지.java>`_
 
 최장 거리
 =========================

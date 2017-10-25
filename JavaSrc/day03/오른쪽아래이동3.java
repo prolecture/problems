@@ -5,10 +5,10 @@ public class 오른쪽아래이동3 {
 	
 	static int matrixPath(int N, int M)
 	{
-		for(int i = 1; i <= N; i++) // 1��
-			D[i][1] = D[i - 1][1] + MAP[i][1];
-		for(int i = 1; i <= M; i++) // 1��
+		for(int i = 1; i <= M; i++) // 1행
 			D[1][i] = D[1][i - 1] + MAP[1][i];
+		for(int i = 1; i <= N; i++) // 1열
+			D[i][1] = D[i - 1][1] + MAP[i][1];		
 		
 		for(int i = 2; i <= N; i++)	// 2 ~ N
 		for(int j = 2; j <= M; j++)	// 2 ~ M
