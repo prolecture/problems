@@ -70,6 +70,42 @@ Disjoint-Set 사용
 최소 동전 개수
 ========================    
 
+.. figure:: img/mincoin1.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin2.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin3.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin4.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin5.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin6.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin7.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin8.png
+   :scale: 50%
+   :align: center
+
+.. figure:: img/mincoin9.png
+   :scale: 50%
+   :align: center
+
 ---------
 
 구간 트리 - 구간합
