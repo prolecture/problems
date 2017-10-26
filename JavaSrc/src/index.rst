@@ -8,7 +8,7 @@ Java 라이브러리
 정렬
 ---------------
 
-다음은 정렬 관련 라이브러리 사용 예제이다.
+정렬 관련 라이브러리 사용 예제이다.
 
 #. `Array 정렬 <https://github.com/prolecture/problems/blob/master/JavaSrc/src/SortArrayDemo.java>`_
 #. 객체 정렬 
@@ -20,7 +20,7 @@ Java 라이브러리
 자료구조 예제
 -----------------
 
-다음은 자료구조 크래스에 대한 사용 예제이다.
+다음은 자료구조 클래스에 대한 사용 예제이다.
 
 #. `Stack <https://github.com/prolecture/problems/blob/master/JavaSrc/src/StackDemo.java>`_
 #. `Queue <https://github.com/prolecture/problems/blob/master/JavaSrc/src/QueueDemo.java>`_
