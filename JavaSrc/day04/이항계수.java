@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 이항계수 { 
+public class 이항계수 {  
 	static int MAXN = 70;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

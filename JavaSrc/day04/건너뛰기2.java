@@ -1,6 +1,7 @@
+// 2차 배열 행우선 순회로 계산
 import java.util.Scanner;
 
-public class 건너뛰기 {
+public class 건너뛰기2 {
 	
 	static int[][] MAP;
 	static long[][] memo;
@@ -23,7 +24,7 @@ public class 건너뛰기 {
 			{
 				for(int j = 0; j < M; j++)
 				{
-					if(memo[i][j] == 0 || MAP[i][j] == 0) continue;
+					if(memo[i][j] == 0) continue;
 					if(i + MAP[i][j] < N)
 						memo[i + MAP[i][j]][j] += memo[i][j];
 					if(j + MAP[i][j] < M)

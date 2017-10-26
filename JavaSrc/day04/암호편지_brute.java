@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 암호편지_brute { 
+public class 암호편지_brute {  
 
 	static String today = "today";
 	static String tomorrow = "tomorrow";

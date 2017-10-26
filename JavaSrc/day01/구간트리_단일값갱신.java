@@ -1,5 +1,5 @@
 
-public class 구간트리_단일값갱신 {
+public class 구간트리_단일값갱신 { 
 	static int[] arr = {3, 9, 4, 2, 7, 8, 10, 1};
 	static int N = arr.length;
 	static int[] st;

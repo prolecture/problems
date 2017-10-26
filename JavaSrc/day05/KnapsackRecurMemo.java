@@ -1,4 +1,4 @@
-public class KnapsackRecurMemo {
+public class KnapsackRecurMemo { 
 	static int W = 10;
 	static int N = 4;
 	static int max = 0;
