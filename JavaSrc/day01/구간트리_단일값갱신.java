@@ -3,6 +3,7 @@ public class 구간트리_단일값갱신 {
 	static int N = arr.length;
 	static int[] st;
 	
+	// id: 노드 번호, [l, r]: 노드 구간
 	static void build(int id, int l, int r){		
 		if(l == r) {
 			st[id] = arr[l]; return;		

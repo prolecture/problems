@@ -123,11 +123,6 @@ Disjoint-Set 사용
 
    < 1차 배열로 구간 트리 표현 > 
 
-   
-.. literalinclude:: 구간트리_단일값갱신.java
-    :language: java
-    :linenos:
-    :lines: 6-14
     
 구간 트리 생성 하기    
 ---------------------------------
@@ -137,7 +132,7 @@ Disjoint-Set 사용
 .. literalinclude:: 구간트리_단일값갱신.java
     :language: java
     :linenos: 
-    :lines: 7-16
+    :lines: 6-16
 
  
 다음과 같이 자료가 10개가 있다면 높이가 4인 구간 트리가 필요하다.    
