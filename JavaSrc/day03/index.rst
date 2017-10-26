@@ -2,10 +2,6 @@
 Day 03
 =============================
 
-.. contents:: 
-   :depth: 1
-   :local:
-
 예제 코드
 =========================
 
@@ -33,8 +29,7 @@ Day 03
     - `재귀 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3_재귀.java>`_    
     - `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/오른쪽아래이동3.java>`_
 
-추가
------------------------
+-------
 
 .. toctree::   
    :maxdepth: 1  

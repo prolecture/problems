@@ -2,10 +2,6 @@
 Day 01
 ==================================
 
-.. contents:: 
-   :depth: 1
-   :local:
-
 예제 코드
 ========================
 
@@ -22,8 +18,7 @@ Day 01
     - `누적합 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/구간합구하기.java>`_
     - `구간 트리 <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/구간합구하기_구간트리.java>`_
 
-추가
------------------------
+-------
 
 .. toctree::   
    :maxdepth: 1  

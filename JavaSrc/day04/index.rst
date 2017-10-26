@@ -2,10 +2,6 @@
 Day 04
 =============================
 
-.. contents:: 
-   :depth: 1
-   :local:
-
 예제 코드
 =========================
 
@@ -33,8 +29,7 @@ Day 04
 #. 집 색칠
     - `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day04/집색칠.java>`_
 
-추가
------------------------
+-------
 
 .. toctree::   
    :maxdepth: 1  

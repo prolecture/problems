@@ -2,9 +2,6 @@
 Day 05
 =============================
 
-.. contents:: 
-   :depth: 1
-   :local:
 
 예제 코드
 =========================
@@ -24,8 +21,7 @@ Day 05
     - `재귀 + 반복 <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/행렬곱셈.java>`_
 
 
-추가
------------------------
+-------
 
 .. toctree::   
    :maxdepth: 1  

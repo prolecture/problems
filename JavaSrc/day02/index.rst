@@ -2,10 +2,7 @@
 Day 02
 =============================
 
-.. contents:: 
-   :depth: 1
-   :local:
-   
+ 
    
 예제 코드
 =========================
@@ -25,8 +22,7 @@ Day 02
     - `BFS 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소연료비용_BFS.java>`_        
     - `Dijkstra 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소연료비용_Dijkstra.java>`_
 
-추가
------------------------
+-------
 
 .. toctree::   
    :maxdepth: 1  
