@@ -14,10 +14,7 @@
    JavaSrc/day03/index   
    JavaSrc/day04/index   
    JavaSrc/day05/index 
-
-----
-
-   JavaSrc/src/index   
+   JavaSrc/src/index   
 
 
    
