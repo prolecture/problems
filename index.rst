@@ -9,12 +9,15 @@
    :maxdepth: 2  
    :titlesonly:   
    
-   JavaSrc/src/index   
    JavaSrc/day01/index   
    JavaSrc/day02/index   
    JavaSrc/day03/index   
    JavaSrc/day04/index   
-   JavaSrc/day05/index   
+   JavaSrc/day05/index 
+
+----
+
+   JavaSrc/src/index   
 
 
    
