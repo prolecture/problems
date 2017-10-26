@@ -6,7 +6,7 @@ Day 03
 =========================
 
 #. 팩토리얼
-    - `반복 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/팩노리얼.java>`_
+    - `반복 예제 <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/팩토리얼.java>`_
 
 #. 타일 붙이기
     - `타일 붙이기(재귀) <https://github.com/prolecture/problems/blob/master/JavaSrc/day03/타일붙이기_재귀.java>`_

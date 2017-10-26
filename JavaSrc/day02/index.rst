@@ -8,9 +8,9 @@ Day 02
 =========================
 
 #. 최소 신장 트리
-    - `Prim(배열) <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Prim.java>`_
-    - `Prim(우선순위큐,인접리스트) <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_PrimPQ.java>`_
-    - `Kruskal <https://github.com/prolecture/problems/blob/master/JavaSrc/day01/최소신장트리_Kruskal.java>`_
+    - `Prim(배열) <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소신장트리_Prim.java>`_
+    - `Prim(우선순위큐,인접리스트) <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소신장트리_PrimPQ.java>`_
+    - `Kruskal <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최소신장트리_Kruskal.java>`_
 
 #. 최단 거리
     - `BFS <https://github.com/prolecture/problems/blob/master/JavaSrc/day02/최단거리_BFS.java>`_
