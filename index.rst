@@ -17,10 +17,6 @@
    JavaSrc/day05/index   
 
 
-참고
----------------------------------
-
-강의 내용은  `algocoding.net <http://www.algocoding.net>`_ 에 정리중입니다.
    
    
 ..
