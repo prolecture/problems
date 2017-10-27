@@ -12,7 +12,7 @@ Day 05
 #. 최소 이동 거리
     - `재귀 + 메모(교재) <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/최소이동거리.java>`_
     - `반복 + 메모 <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/최소이동거리_반복.java>`_
-    - `순열 + 가지치기 <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/최소이동거리_순열.java>`_
+    - `순열 + 가지치기 <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/최소이동거리_순열.java>`_
 
 #. 행렬 곱셈
     - `재귀 + 반복 <https://github.com/prolecture/problems/blob/master/JavaSrc/day05/행렬곱셈.java>`_
