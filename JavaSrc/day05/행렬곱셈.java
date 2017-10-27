@@ -29,7 +29,7 @@ public class 행렬곱셈 {
 		
 		for (int l = 1; l < N; l++){
 			
-			for (int i = 1; i < N && (i + l <= N); i++)
+			for (int i = 1; i + l <= N; i++)
 			{
 				int j = i + l;
 				
