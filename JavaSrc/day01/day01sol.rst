@@ -102,10 +102,6 @@ Disjoint-Set 사용
    :scale: 50%
    :align: center
 
-.. figure:: img/mincoin9.png
-   :scale: 50%
-   :align: center
-
 ---------
 
 구간 트리 - 구간합
